@@ -44,7 +44,112 @@ footer{
 }
 
 .About:hover{
-    color: #333;
+    color: #000000;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: auto;
+    font-weight: 20px;
+}
+
+.social-links{
+    margin-top: 10px;
+}
+
+.social-links > a{
+margin: 0 10px;
+color: #007bff;
+text-decoration: none;
+font-weight: bold;
+}
+
+.social-links > :hover{
+    text-decoration: underline;
+    font-size: 20px;
+    color: black;
+}
+
+footer > p{
+    color: #000000;
+    font-weight: 80px;
+}
+
+.projet-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-cards{
+    background-color: #FFFFFF;
+    border-left: 4px rgb(17, 255, 80);
+    padding: 15px;
+    border-radius: 8px;
+    border-width: 15px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    transition: 0.2s;
+
+}
+
+.project-cards:hover{
+    transform: translatey(-5px);
+}
+
+.project-cards > h3{
+    margin-top: 0;
+    color: rgb(0, 255, 89);
+    
+}
+
+.project-cards >p{
+    font-size: 14px;
+    color: #333;
+}
+
+.project-cards > a{
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: whitesmoke;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s;
+
+}
+
+.project-cards >a:hover{
+    background-color: #007bff;
+    color: black;
+}
+
+nav{
+    background-color: #212121;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10;
+    gap: 20;
+}
+
+.navbar > li>a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: 0.2s ease;
+
+}
+
+.navbar>li>a:hover{
+    background-color: #007bff;
 }
